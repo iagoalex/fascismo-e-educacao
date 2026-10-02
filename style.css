@@ -334,6 +334,13 @@ p {
   font-size: 11px;
 }
 
+a {
+  text-decoration: none;
+  color: #241f1d;
+  background-color: #b3925a;
+  padding: 3px;
+}
+
 @media (max-width: 760px) {
   .header {
     height: 76px;
