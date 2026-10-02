@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site educativo sobre fascismo e educação, com abordagem histórica e crítica.">
+
+  <title>Fascismo e Educação</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagens/logo.png" type="image/png">
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <img class="brand-mark" src="imagens/logo.webp" alt="Logo da Universidade Federal do Rio Grande do Sul.">
+
+    <div class="discipline">
+
+      <span>SEMINÁRIO ESPECIAL</span>
+      <strong>Fascismo e Educação</strong>
+
+    </div>
+
+    <button class="mobile-menu" id="mobileMenu" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar" id="sidebar">
+
+      <nav aria-label="Menu principal">
+
+        <div class="search-box">
+
+          <label for="sessionSearch">Buscar seção</label>
+
+          <div class="search-input-wrap">
+
+            <input
+              type="search"
+              id="sessionSearch"
+              placeholder="Digite para filtrar (55 tópicos)..."
+              autocomplete="off"
+            >
+
+            <button type="button" id="clearSearch" aria-label="Limpar busca">×</button>
+            
+          </div>
+
+          <small id="searchResult">55 seções disponíveis</small>
+
+        </div>
+
+        <div class="nav-scroll-container" id="navList">
+          <!-- Os 55 botões do menu são gerados e injetados dinamicamente pelo JavaScript -->
+        </div>
+
+      </nav>
+
+    </aside>
+
+    <main class="content" id="content" tabindex="-1">
+      <!-- Área de inserção do conteúdo pelo JavaScript -->
+    </main>
+
+  </div>
+
+  <footer class="footer">
+
+    <span>Fascismo e Educação</span>
+    <span>Material educativo • abordagem histórica e crítica</span>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
