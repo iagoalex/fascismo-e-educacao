@@ -1,1 +1,0 @@
-# fascismo-e-educacao
